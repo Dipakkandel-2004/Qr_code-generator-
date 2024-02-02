@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(224, 215, 215, 0.908);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    text-align: center;
+    width: 40%;
+    max-width: 1200px;
+    background-color: #fff;
+    margin: 10rem auto;
+    padding: 1rem 2rem;
+    border-radius: 20px;
+    box-shadow: -8px 8px 13px black;
+
+}
+
+.top {
+
+    width: 100%;
+    padding: 1rem;
+    margin: 1rem;
+
+
+}
+
+.top input {
+    width: 60%;
+    font-size: 1.25rem;
+    padding: 0.65rem;
+    outline: none;
+    border: 1px solid black;
+    background-color: #12111158;
+    border-radius: 20px;
+
+}
+
+.top button {
+    margin-left: 2em;
+    color: white;
+    background-color: rgba(5, 5, 5, 0.839);
+    width: 25%;
+    font-size: 1.2rem;
+    padding: 0.25rem;
+    border: none;
+    border-radius: 40px;
+}
+
+.top button:hover {
+    cursor: pointer;
+    background-color: rgba(35, 34, 34, 0.894);
+    color: rgb(228, 222, 222);
+}
+
+.toptext {
+    color: brown;
+    text-shadow: 1px 1px 1px rgb(22, 21, 21);
+    font-size: 2rem;
+
+}
+
+.bottom {
+
+    padding: 1rem;
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.myimg {
+
+    background-color: #fff;
+
+    border-radius: 9px;
+
+}
